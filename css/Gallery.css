@@ -168,3 +168,38 @@
   }
 /* Code for the common areas (header and footer) end. */
 
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-description {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333; /* Add a border to the images if desired */
+}
+
+.description {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
