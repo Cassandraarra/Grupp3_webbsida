@@ -12,7 +12,7 @@
   }
   
   * {
-    height: 100%;
+
     margin: 0;
     padding: 0;
   }
@@ -41,6 +41,7 @@
   /* Detailed settings section starts */
   /* Header section starts */
   #header {
+    height: 60px;
     top: 0;
     left: 0;
     z-index: 1;
@@ -94,6 +95,7 @@
   
   /* Main section starts */
   #main {
+    min-height: calc(100vh - 60px);
     background: radial-gradient(
       1091px at 106.5% 111.5%,
       rgb(250, 246, 213) 0.1%,
@@ -140,8 +142,9 @@
     #header ul {
       position: fixed;
       flex-direction: column;
+      row-gap: 60px;
       top: 70px;
-      left: 52%;
+      left: 64%;
       width: 36%;
       height: 40%;
       text-align: center;
@@ -169,17 +172,23 @@
 /* Code for the common areas (header and footer) end. */
 
 
+/* Code for gallery page starts here. */ 
+
 .gallery-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 20px;
 }
 
 .image-description {
     display: flex;
     align-items: center;
     margin: 10px;
+    border: 2px solid #dacece;
+    padding: 15px;
+    column-gap: 20px;
 }
 
 .left {
@@ -190,11 +199,32 @@
     flex-direction: row-reverse;
 }
 
-.image, .description {
+.image {
+    width: 50%;
+}
+
+.description {
     width: 50%;
     display: flex;
     justify-content: center;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    flex-direction: column; /* Display title and description in a column layout */
 }
+h1 {
+    margin-top: 25px;
+    color: azure;
+}
+h3 {
+    font-size: 18px; /* Adjust the font size for the titles */
+    color: #333; /* Choose a color for the titles */
+    margin-bottom: 5px; /* Add margin for spacing between title and description */
+    text-align: center;
+    color: azure;
+    margin-bottom: 25px; /* Add margin to create more space between title and description */
+}
+
 
 img {
     max-width: 100%;
@@ -206,3 +236,4 @@ p {
     text-align: center;
     margin: 0;
 }
+
