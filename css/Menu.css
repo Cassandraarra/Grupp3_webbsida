@@ -29,10 +29,11 @@
   background-color: rgb(151, 98, 37);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 20px;
   border-radius: 10px;
   padding: 10px;
+  min-width: 350px;
 }
 
 .product-img {
