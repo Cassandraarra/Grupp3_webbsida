@@ -78,7 +78,15 @@
   justify-content: center;
   gap: 20px;
 }
-
+#menu-container {
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
 .product-wraper {
   width: 20%;
   height: 25%;
@@ -115,45 +123,5 @@
   grid-area: price;
 }
 
-/* Media queries for responsiveness section starts*/
-
-/* Settings for screens larger than 1200px (desktop screens) */
-@media (min-width: 1200px) {
-  .product-wraper {
-    width: 18%; /* Adjust width for larger screens */
-  }
-}
-
-/* Settings for screens between 960px and 1200px (smaller desktop screens) */
-@media (min-width: 960px) and (max-width: 1200px) {
-  .product-wraper {
-    width: 22%; /* Adjust width for smaller desktop screens */
-  }
-}
-
-/* Settings for screens between 768px and 960px (tablets such as iPad) */
-@media (min-width: 768px) and (max-width: 959px) {
-  .product-wraper {
-    width: 30%; /* Adjust width for tablets */
-  }
-}
-
-/* Settings for screens smaller than 768px (mobile phones) */
-@media (max-width: 767px) {
-  .product-wraper {
-    width: 100%; /* Make the product wrapper take full width */
-    margin-bottom: 20px; /* Add some space between products */
-  }
-
-  .product-img {
-    width: 100%; /* Make the image take full width */
-    border-radius: 10px 10px 0 0; /* Adjust border-radius */
-  }
-
-  .product-name,
-  .product-price {
-    padding: 10px; /* Add padding for name and price */
-  }
-}
 
   
