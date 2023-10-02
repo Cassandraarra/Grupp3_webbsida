@@ -2,7 +2,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/joti-one');
 
-@import url('https://fonts.cdnfonts.com/css/indie-flower');
+@import url('https://fonts.cdnfonts.com/css/peaches-for-breakfast');
 
 
 /* Code for gallery page starts here. */ 
@@ -50,10 +50,11 @@
     
 }
 h1 {
-    font-family: 'Indie Flower', sans-serif;
-    margin-top: 30px;
+    font-family: 'Peaches For Breakfast', sans-serif;
+    margin-top: 40px;
     color: azure;
     text-align: center;
+    font-size: 80px;
 }
 h3 {
     font-family: 'Joti One', sans-serif;
