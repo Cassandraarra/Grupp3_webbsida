@@ -96,9 +96,9 @@ a:active {
   background: radial-gradient(
     1091px at 106.5% 111.5%,
     rgb(250, 246, 213) 0.1%,
-    rgb(218, 147, 93) 42.2%,
-    rgb(137, 86, 67) 74.3%,
-    rgb(67, 39, 39) 100.2%
+    rgb(242, 202, 173) 42.2%,
+    rgb(192, 115, 13) 74.3%,
+    rgb(129, 71, 17) 100.2%
   );
 }
 
@@ -142,7 +142,7 @@ a:active {
     top: 70px;
     left: 52%;
     width: 36%;
-    height: 40%;
+    height: 30%;
     text-align: center;
     transform: translateX(135%);
     transition: transform 0.5s ease-in;

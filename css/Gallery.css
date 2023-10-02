@@ -1,4 +1,3 @@
-/* General settings section starts */
 @import url(../Variables.css);
 
 /* Code for gallery page starts here. */ 
@@ -42,7 +41,7 @@
     flex-direction: column; /* Display title and description in a column layout */
 }
 h1 {
-    margin-top: 25px;
+    margin-top: 30px;
     color: azure;
     text-align: center;
 }
@@ -60,7 +59,7 @@ h3 {
 img {
     max-width: 100%;
     height: auto;
-    border: 2px solid #333; /* Add a border to the images if desired */
+    
 }
 
 p {
