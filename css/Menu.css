@@ -71,57 +71,49 @@
 
 /* Main section starts */
 #main {
-  margin: 0;
-  padding: 0 20px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 20px;
+  min-height: 80.25vh;
 }
 #menu-container {
-  margin: 0;
-  padding: 0 20px;
-  display: flex;
-  flex-wrap: wrap;
+  display: flex;  
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
+
 .product-wraper {
-  width: 20%;
-  height: 25%;
   border: 1px;
   background-color: rgb(151, 98, 37);
-  display: grid;
-  grid-template-areas:
-    'img name name'
-    'img price price';
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
   border-radius: 10px;
-}
-
-.product-name {
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
-  grid-area: name;
+  padding: 10px;
 }
 
 .product-img {
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
-  grid-area: img;
-  border-radius: 10px 10px 0 0;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;  
+  border-radius: 10px ;
 }
 
-.product-price {
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
-  grid-area: price;
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
 }
+
 
 
   
