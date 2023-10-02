@@ -1,9 +1,5 @@
-/* General-setting section starts */
-:root {
-  --font-family: Abel;
-  --color: rgb(26, 22, 22);
-  --background-color: rgb(155, 83, 7);
-}
+/* Include Variables.css in Home.css */
+@import url(“../Variables.css”);
 
 /* Main section starts */
 #main {
@@ -34,7 +30,7 @@
 /* Advertisement */
 #advertisement {
   font-size: 2em;
-  font-family: var(--font-family);
+  font-family: var(--font-family-one);
   color: var(--color);
   grid-row: 1 / 2;
 }
@@ -48,7 +44,7 @@
 }
 
 .adv-button {
-  background-color: var(--background-color);
+  background-color: var(--background-color-three);
   border: none;
   border-radius: 8%;
   color: var(--color);
@@ -63,14 +59,14 @@
 /* Introduction */
 #intro-title {
   grid-row: 3 / 4;
-  font-family: var(--font-family);
+  font-family: var(--font-family-one);
   font-size: 35px;
   color: var(--color);
 }
 
 #intro-text {
   grid-row: 4 / 5;
-  font-family: var(--font-family);
+  font-family: var(--font-family-one);
   font-size: 26px;
   color: var(--color);
 }
@@ -100,21 +96,12 @@
 #phone-no,
 #email-addr {
   padding-top: 35px;
-  font-family: var(--font-family);
+  font-family: var(--font-family-one);
   font-size: 18px;
   color: var(--color);
 }
 
 /* Media queries for responsiveness section starts*/
-/* Settings for the screen larger than 1200px (the wide desktop screen) */
-@media screen and (min-width: 1200px) {
-  #main {
-    column-gap: 26px;
-  }
-  #welcome {
-    row-gap: 20px;
-  }
-}
 
 /* Settings for the screen between 960px and 1200px (the smaller desktop screen) */
 @media (min-width: 960px) and (max-width: 1200px) {
