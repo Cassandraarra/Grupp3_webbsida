@@ -11,7 +11,7 @@ body {
 #main {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     column-gap: 10px;
     row-gap: 10px;
     height: 1440px;
@@ -28,9 +28,10 @@ body {
       
     }
 
-    
+
     
    #cafeadress {
+    display: grid;
         text-align: center;
         font-size: 24px;
         grid-row: 2 / 3;
@@ -42,6 +43,7 @@ body {
 
   
     #cafeemail {
+        display: grid;
         text-align: center;
         font-size: 24px;
         grid-row: 3 / 4;
@@ -56,30 +58,18 @@ body {
         grid-column: 4 / span 2;
     }
     
-    
-  
-    
-    .row1 {
-        display: grid; 
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-row: 5 / 6;
-        grid-column: 3 / 6;
-        margin-top: 20px;
-        column-gap: 10px;
-    
-    
-    }
+
 
 
     #Name {
         border: 1px solid #333;
         display: grid;
         grid-row: 5 / 6;
-        grid-column: 3 / span 2;
-        width: 167px;
+        grid-column: 3 / 4;
         height: 51px;
         background-color: var(  --background-color);
         opacity: 0.3;
+        row-gap: 10px;
     
      
     }
@@ -90,8 +80,7 @@ body {
         border: 1px solid #333;
         display: grid;
         grid-row: 5 / 6;
-        grid-column: 6 / span 2;
-        width: 167px;
+        grid-column: 6 / 7;
         height: 51px;
         background-color: var(  --background-color);
         opacity: 0.3;
@@ -104,8 +93,7 @@ body {
         border: 1px solid #333;
         display: grid;
         grid-row: 5 / 6;
-        grid-column: 4 / span 3;
-       width: 346px;
+        grid-column: 4 / 6;
        height: 51px;
        background-color: var(  --background-color);
         opacity: 0.3;
@@ -116,15 +104,14 @@ body {
         display: grid;
         grid-template-columns: 0fr 0fr 4fr 0fr 0fr;
         grid-row: 6 / 7;
-        grid-column: 3 / 6;
+        grid-column: 3 / 7;
     }
 
     #Message {
     display: grid;
     grid-row: 6 / 7;
-    grid-column: 3 / span 4;
+    grid-column: 3 / 7;
        height: 295px;
-       width: 700px;
        background-color: var(  --background-color);
         opacity: 0.3;
     
@@ -132,32 +119,22 @@ body {
     }
     
     
-    
-    .sendbuttongrid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8, 1fr);
-        grid-row: 7 / 8;
-        grid-column: 6 / span 2;  
-    }
 
     #sendbutton {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8, 1fr);
         grid-row: 7 / 8;
-        grid-column: 6 / span 2;
-        height: 295px;
+        grid-column: 3 / 4;
+        height: 40px;
+        width: 167px;
         background-color: var(  --background-color);
         opacity: 0.3;
+        
     }
     
-    #lastrow {
+    .lastrow {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: 0fr 0fr 3fr 1fr 0fr 0fr;
         grid-row: 8 / 9;
-        grid-column: 3 / span 4; 
+        grid-column: 3 /  7; 
     }
 
     #Subscribe {
@@ -166,13 +143,17 @@ body {
         opacity: 0.3;
         grid-row: 8 / 9;
         grid-column: 3 / span 3; 
+        height: 40px;
+    
+
     }
 
 
     #subbutton {
-        display: grid;
         background-color: var(  --background-color);
         opacity: 0.3;
         grid-row: 8 / 9;
-        grid-column: 3 / span 4; 
+        grid-column: 6 / 7; 
+        height: 40px;
+    
     }
