@@ -139,7 +139,7 @@ a:active {
   #header ul {
     position: fixed;
     flex-direction: column;
-    top: 70px;
+    top: 50px;
     left: 52%;
     width: 36%;
     height: 30%;
@@ -147,6 +147,7 @@ a:active {
     transform: translateX(135%);
     transition: transform 0.5s ease-in;
     background-color: var(--background-color-one);
+    line-height: 2.5;
   }
 
   #header ul li {
