@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Variables.css" />
-    <link rel="stylesheet" href="css/Contact.css"/>
+    <link rel="stylesheet" href="css/Contact.css" />
+    <link href="https://fonts.cdnfonts.com/css/joti-one" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/peaches-for-breakfast" rel="stylesheet">      
     <link
       href="https://fonts.googleapis.com/css?family=Alex Brush"
       rel="stylesheet"
@@ -31,7 +33,7 @@
         <ul>
           <li><a href="index.html" class="nav-link">Home</a></li>
           <li><a href="Menu.html" class="nav-link">Menu</a></li>
-          <li><a href="Gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="Gallery.html"class="nav-link">Gallery<a><li>
           <li><a href="Contact.html" class="nav-link">Contact</a></li>
           <li>
             <a href="#" class="nav-link"
@@ -45,39 +47,28 @@
       </nav>
     </header>
 
-    <!--Main section starts-->
-    <main id="main">
-    
-     
-        <h2 id="contacttitle">Contact</h2>   
-
-        <h2 id="cafeadress">Isafjordsgatan 32, 162 63, Kista</h2>
-        <h2 id="cafeemail">Happycoffee@gmail.com</h2>
-        <h2 id="cafenumber">+46 7 121 356 44</h2>
-
-   
-    
-        <input type="text"placeholder="Name" id="Name">
-        <input type="text" placeholder="E-mail" id="Email">
-        <input type="text" placeholder="Telephone" id="Tel">
-      
-    
-            
-        <input placeholder="Message" id="Message">
-         
-    
-       <button id="sendbutton" type="button">Send</button> 
-      
-
-    
-        <input type="text" placeholder="Enter your email to sign up to our newsletter" id="Subscribe">
-        <button type="submit" id="subbutton">Subscribe</button> 
-        
-        </div>
-    </div>
-
-    </main>
-
+        <!--Main section starts-->
+        <main id="main">
+            <h1 id="contacttitle">Contact</h1>
+            <p id="cafeadress">Isafjordsgatan 32, 162 63, Kista</p>
+            <p id="cafeemail">Happycoffee@gmail.com</p>
+            <p id="cafenumber">+46 7 121 356 44</p>
+            <div id="input-containers">
+              <input class="input" type="text" placeholder="Name" id="Name" />
+              <input class="input" type="text" placeholder="E-mail" id="Email" />
+              <input class="input" type="text" placeholder="Telephone" id="Tel" />
+              <input class="input" type="text" placeholder="Message" id="Message" />
+              <button class="input" id="sendbutton" type="button">Send</button>
+              <input
+                class="input"  
+                type="text"
+                placeholder="Enter your email to subscribe to our newsletter"
+                id="Subscribe"
+              />
+              <button class="input" type="submit" id="subbutton">Subscribe</button>
+            </div>
+        </main>
+  
     <!--Footer section starts-->
     <footer id="footer">
       <div id="media">
@@ -111,3 +102,6 @@
     ></script>
   </body>
 </html>
+
+
+    
