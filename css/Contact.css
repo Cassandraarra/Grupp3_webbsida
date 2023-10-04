@@ -21,7 +21,7 @@ body {
     
     #contacttitle {
         text-align: center;
-        margin-top: 200px;
+        margin-top: 150px;
         grid-row: 1 / 2;
         grid-column: 4 / span 2;
         font-family: indie flower;
@@ -163,7 +163,7 @@ body {
         display: grid;
         background-color: var(  --background-color);
         opacity: 0.3;
-        grid-row: 8 / 9;
+        grid-row: 7 / 8;
         grid-column: 3 / span 3; 
         height: 40px;
         font-family: var(--font-family-one); 
@@ -178,7 +178,7 @@ body {
        border: 2px solid bisque;
         background-color: var(  --background-color);
         opacity: 0.3;
-        grid-row: 8 / 9;
+        grid-row: 7 / 8;
         grid-column: 6 / 7; 
         height: 40px;
         font-family: var(--font-family-one); 
