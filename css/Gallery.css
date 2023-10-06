@@ -70,10 +70,9 @@ h3 {
   font-family: 'Joti One', sans-serif;
   font-size: 22px; /* Adjust the font size for the titles */
   color: #333; /* Choose a color for the titles */
-  margin-bottom: 5px; /* Add margin for spacing between title and description */
   text-align: center;
   color: azure;
-  margin-bottom: 20px; /* Add margin to create more space between title and description */
+  margin-bottom: 20px; /* Add margin to create more space on top and bottom of the description */
   margin-top: 10px;
 }
 
